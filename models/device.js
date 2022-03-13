@@ -3,6 +3,7 @@ const deviceSchema = mongoose.Schema({
 deviceID :{
 type: String,
 required: true,
+unique: true,
 },
 simNum:{
 type: String,
